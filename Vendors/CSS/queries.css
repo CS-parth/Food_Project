@@ -1,0 +1,138 @@
+
+/*for big-tablet to laptop/computers*/ 
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        /* position: absolute; */
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+
+
+
+/* for tablet to big-tablet*/ 
+@media only screen and (max-width: 1023px) {
+    long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .steps-box{
+        margin-top: 10px;
+    }
+    .steps-box:last-child{
+        margin-top: 10px;
+    }
+    .works-step{
+        margin-bottom: 40px;
+    }
+    .app-screen{width: 50%;}
+    .cities-features{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        /* font-size: 250%; */
+    }
+    .contact-form{
+        width: 80%;
+    }
+    .hero-text-box{
+        font-size: 90%;
+        margin-top: 40px;
+    }
+    .main-nav li{
+        margin: 20px;
+    }
+    .first-box{
+        font-size: 10px;
+    }
+    .first-box{
+        margin: 0;
+    }
+    .second-box{
+        margin: 0;
+        margin-left: 60px;
+    }
+    footer li{
+        /* list-style: none; */
+        /* text-decoration: none; */
+        margin: 0 10px;
+        font-size: 17px;
+        /* color: black; */
+    }
+}
+
+
+
+/* for small phones to tablet*/ 
+@media only screen and (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 0px;
+    }
+    .btn{
+        margin: 15px 0 !important;
+    }
+    .row,
+    .hero-text-box{
+        display: block;
+        padding: 0 4%;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{
+        display: none;
+    }
+    .app-screen{
+        width: 40%;
+    }
+}
+
+
+
+/* for small phones 0 to 480px*/ 
+@media only screen and (max-width: 480px) {
+    h2:after{
+        display: block;
+        height: 2px;
+        width: 100px;
+        background-color: orange;
+        content: " ";
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    footer li{
+        list-style: none;
+        /* text-decoration: none; */
+        margin: 0 5px;
+        font-size: 15px;
+        color: black;
+    }
+    .navigation{
+        vertical-align: middle;
+        padding: 1px;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer ion-icon{
+        width: 20px;
+        height: 20px;
+    }
+}

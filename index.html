@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>My Food Project</title>
     <link rel="stylesheet" href="Vendors/CSS/responsivegridsystem/css/grid.css">
     <link rel="stylesheet" href="Vendors/CSS/necolas.github.io_normalize.css_8.0.1_normalize.css">
     <link rel="stylesheet" href="Resources\CSS\style.css">
+    <link rel="stylesheet" href="Vendors/CSS/queries.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -26,35 +27,35 @@
     <header> 
         <div class="hero-text-box">
             <h1 style="margin-top: 0;">Good By Junk Food!</h1>
-            <h1>Hello Su/ Healthy Food</h1>
+            <h1>Hello Super Healthy Food</h1>
             <hr>
             <a href="#" class="btn btn-full">I'm hungary</a>
             <a href="#" class="btn btn-ghost">Show me more</a>
         </div>
     </header>
     <!-- This is the features section part of the Web page -->
-    <section class="features-section debug">
-        <div class="row debug">   
+    <section class="features-section">
+        <div class="row fix-flex">   
            <h2>Get food fast — not fast food.</h2>
            <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>  
         </div>
-        <div class="row debug">
-            <div class="debug col span_1_of_4 box" style="margin: 0 10px 0 0;">
+        <div class="row ">
+            <div class="debug col span_1_of_4 box" style="margin: 0 5px 0 0;">
                 <ion-icon class = "icon-big" name="infinite-outline"></ion-icon>
                 <h3>Up to 365 days/year</h3>
                 <p class="feature-para">Never cook again! We re  ally mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>  
             </div>
-            <div class=" debug col span_1_of_4 box" style="margin: 0 10px 0 0;">
+            <div class=" debug col span_1_of_4 box" style="margin: 0 5px 0 0;">
                 <ion-icon class = "icon-big" name="hourglass-outline"></ion-icon>
                 <h3>Ready in 20 minutes</h3>
                 <p class="feature-para">You're only twenty minutes away from your delicious and su/ healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
             </div>
-            <div class="debug col span_1_of_4 box" style="margin: 0 10px 0 0;">     
+            <div class="debug col span_1_of_4 box" style="margin: 0 5px 0 0;">     
                 <ion-icon class = "icon-big" name="fast-food-outline"></ion-icon>
                 <h3>100% organic</h3>
                 <p class="feature-para">All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
             </div>
-            <div class="debug col span_1_of_4 box" style="margin: 0 10px 0 0;">
+            <div class="debug col span_1_of_4 box" style="margin: 0 5px 0 0;">
             <ion-icon class = "icon-big" name="cart-outline"></ion-icon>
             <h3>Order anything</h3>
             <p class="feature-para">We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
@@ -146,7 +147,7 @@
                 <img src="Resources/IMG/lisbon-3.jpg" alt="lisbon">
                 <h3>Lisbon</h3>
                 <div class="cities-features">
-                    <ion-icon name="/son-circle-outline"></ion-icon>1600+ happy Eaters
+                    <ion-icon name="happy-outline"></ion-icon>1600+ happy Eaters
                 </div>
                 <div class="cities-features">
                     <ion-icon name="accessibility-outline"></ion-icon>50+ Chefs in the city
@@ -160,7 +161,7 @@
                 <img src="Resources/IMG/london.jpg" alt="london">
                 <h3>London</h3>
                 <div class="cities-features">
-                    <ion-icon name="/son-circle-outline"></ion-icon>
+                    <ion-icon name="happy-outline"></ion-icon>
                     1000+ happy Eaters
                 </div>
                 <div class="cities-features">
@@ -176,7 +177,7 @@
                 <img src="Resources/IMG/san-francisco.jpg" alt="san-francisco">
                 <h3>San-francisco</h3>
                 <div class="cities-features">
-                    <ion-icon name="/son-circle-outline"></ion-icon>
+                    <ion-icon name="happy-outline"></ion-icon>
                     1700+ happy Eaters
                 </div>
                 <div class="cities-features">
@@ -192,7 +193,7 @@
                 <img src="Resources/IMG/berlin.jpg" alt="berlin">
                 <h3>Berlin</h3>
                 <div class="cities-features">
-                    <ion-icon name="/son-circle-outline"></ion-icon>
+                    <ion-icon name="happy-outline"></ion-icon>
                     1900+ happy Eaters
                 </div>
                 <div class="cities-features">
@@ -241,16 +242,14 @@
             </div>
         </div>
     </section>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<!-- This is a sign-up section -->
-<section class="section-plans clearfix">
-    <div class="row">
-        <h2>Start eating healthy today</h2>
-    </div>
-    <div class="row">
-        <div class="col span_1_of_3">
-            <div class="plan-box">
+    <!-- This is a sign-up section -->
+    <section class="section-plans clearfix">
+        <div class="row">
+            <h2>Start eating healthy today</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3">
+                <div class="plan-box">
                 <h3>Premium</h3>
                 <p class="plan-price">$399 / month</p>
                 <p class="plan-price-meal">That's only $13.99 / meal</p>
@@ -267,7 +266,7 @@
                     </ul>
                 </div>
                 <div>
-                    <a href="#" class="btn btn-ghost">Sign-up</a>
+                    <a href="#" class="btn btn-ghost btn-fix">Sign-up</a>
                 </div>
             </div>
         </div>
@@ -289,14 +288,14 @@
                     </ul>
                 </div>
                 <div>
-                    <a href="#" class="btn btn-ghost">Sign-up</a>
+                    <a href="#" class="btn btn-ghost btn-fix">Sign-up</a>
                 </div>
             </div>
         </div>
         <div class="col span_1_of_3">
             <div class="plan-box">
             <h3>Starter</h3>
-                <p class="plan-price">$99 / month</p>
+                <p class="plan-price">$99.9 / month</p>
                 <p class="plan-price-meal">Only $19 / meal</p>
                 <div>
                     <ul>
@@ -311,7 +310,7 @@
                     </ul>
                 </div>
                 <div>
-                    <a href="#" class="btn btn-ghost">Sign-up</a>
+                    <a href="#" class="btn btn-ghost btn-fix">Sign-up</a>
                 </div>
             </div>
         </div>
@@ -354,7 +353,7 @@
                         <option value="search">Seach Engine</option>
                         <option value="ad">Advertisement</option>
                         <option value="other">Other</option>
-
+                        
                     </select>
                 </div>
             </div>
@@ -395,7 +394,7 @@
             <ul class="footer-nav clearfix">
                 <li><a href="">About Us</a></li>
                 <li><a href="">Blog</a></li>
-                <li><a href="">Pres</a></li>
+                <li><a href="">Press</a></li>
                 <li><a href="">IOS app</a></li>
                 <li><a href="">Android app</a></li>
             </ul>
@@ -417,5 +416,7 @@
         <p>Copyright &copy; 2015 by omnifood.All right reserved.</p>
     </div>
 </footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
